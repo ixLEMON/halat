@@ -17,8 +17,7 @@ client.on('message', message => {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'setw')) {
-  client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`**✅   ${argresult}**`)
+  client.user.setActivity(argresult, {type:'WATCHING'})https://www.twitch.tv/directory/game/Fortnite
   } else 
   if (message.content.startsWith(adminprefix + 'setl')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
